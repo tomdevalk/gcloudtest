@@ -17,7 +17,7 @@ def run_quickstart():
     # The name of the image file to annotate
     file_name = os.path.join(
         os.path.dirname(__file__),
-        'o.jpg')
+        'bk-chicken-fries-hed-2014.jpg')
 
     # Loads the image into memory
     with io.open(file_name, 'rb') as image_file:
